@@ -1,0 +1,98 @@
+body{
+  background-color: #03d1aa;
+  margin:0;
+}
+ul.navbar{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #856fc7;
+}
+li.navbar a{
+  display: block;
+  text-decoration: none;
+  padding: 10px 60px;
+  color: #f1f081;
+}
+li.navbar a:hover{
+  background-color: #ee3768;
+}
+li.navbar{
+  display: inline;
+  float: left;
+  font: 20px verdana; 
+}
+div.navbar{
+  position: sticky;
+}
+h1{
+  color: #f1f081;
+  font: 48px verdana;
+  text-align: center;
+}
+div.logo{
+	text-align: center;
+}
+p{
+	color: #ee3768;
+	font: 36px verdana;
+	text-shadow: -1px 1px 0 #000,
+				       1px 1px 0 #000,
+					   1px -1px 0 #000,
+					   -1px -1px 0 #000;
+}
+mark.purple{
+	color: #856fc7;
+	background: none;
+}
+mark.yellow{
+	color: #f1f081;
+	background: none;
+}
+p::selection{
+	color: #856fc7;
+}
+li::selection{
+	color: #856fc7;
+}
+li{
+	color: #ee3768;
+	font: 36px verdana;
+}
+mark.purple::selection{
+	color: #f1f081;
+}
+mark.yellow::selection{
+	color: #ee3768;
+}
+td.b{
+	color: #856fc7;
+	font: 40px verdana;
+}
+td.b::selection{
+	color: #f1f081;
+}
+h1::selection{
+	color: #ee3768;
+}
+table{
+	border-collapse: collapse;
+}
+td{
+	border: 3px solid #03d1aa;
+	padding: 8px;
+	background-color: #95d8cb
+}
+div.Btext{
+	text-align: center;
+}
+div.pic{
+	text-align: center;
+}
+a{
+	color: #856fc7;
+}
+img::selection{
+	background: #f1f081;

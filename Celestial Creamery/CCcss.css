@@ -1,0 +1,147 @@
+body{
+  background-color:#f1f7ed;
+}
+ul.navbar{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #c1ac8b;
+  display: inline-block;
+  padding: 0px 0px 50px 0px;
+  position: fixed;
+}
+li.navbar a{
+  display: block;
+  padding: 10px;
+  color: #e3c9ff;
+  font-size: 40px;
+  font-family: pacifico;
+  text-decoration: none;
+}
+li.navbar a:hover{
+  background-color: #b8b3e9;
+  color: #9feae6;
+  transition: 0.4s;
+}
+div.grid{
+  display: flex-grid;
+  grid-template-columns: 250px 600px;
+  grid-template-rows: 300px 400px;
+  grid-gap: 50px;
+  padding-left: 400px;
+  padding-top: 20px;
+}
+div.box1, .box2, .box3, .box4{
+  /*border: 2px solid #c1ac8b;*/
+}
+div.grid2{
+  display: inline-grid;
+  grid-template-columns: 250px 800px;
+  grid-template-rows: 600px 400px;
+  grid-gap: 10px;
+  position: absolute;
+  left: 400px;
+  top: 20px;
+  padding: 10px;
+}
+div.b1, .b2, .b3, .b4{
+	/*border: 2px solid #c1ac8b;*/
+}
+div.grid3{
+  display: flex-grid;
+  grid-template-columns: 150px 300px;
+  grid-template-rows: 400px;
+  grid-gap: 80px;
+  position: absolute;
+  left: 500px;
+  top: 20px;
+}
+div.o1, .o2, .o3{
+	/*border: 2px solid #c1ac8b;*/
+}
+div.o3{
+	grid-column: 1/ span 2;
+}
+div.grid4{
+  display: inline-grid;
+  /*border: 2px solid #c1ac8b;*/
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 310px 310px 310px;
+  position: absolute;
+  left: 450px;
+  top: 20px;
+  margin-bottom: 30px;
+}
+div.x1, .x2, .x3, .x4, .x5, .x6, .x7, .x8, .x9, .x10, .x11, .x12{
+	/*border: 2px solid #c1ac8b;*/
+	text-align: center;
+}
+h1{
+	color: #9feae6;
+	text-align: center;
+	font-family: pacifico;
+	font-weight: lighter;
+}
+h2{
+	color: #9feae6;
+	text-align: center;
+	font-family: pacifico;
+	font-size: 30px;
+	font-weight: lighter;
+}
+h3{
+	color: #b8b3e9;
+	text-align: center;
+	font-family: pacifico;
+	font-size: 30px;
+	font-weight:lighter;
+}
+p{
+	color: #b8b3e9;
+	font-family: pacifico;
+	text-align: center;
+	font-size: 20px;
+}
+a{
+	color: #e3c9ff;
+	text-align: center;
+	font-family: pacifico;
+	text-decoration: none;
+	font-size: 30px;
+	transition: 0.2s
+}
+div.homelogo{
+	text-align: center;
+}
+div.instagrid{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 500px;
+}
+::selection{
+	background-color: #9feae6;
+}
+a::selection{
+	color: #f1f7ed;
+}
+h1::selection{
+	color: #e3c9ff;
+}
+h2::selection{
+	color: #c1ac8b;
+}
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
