@@ -1,7 +1,161 @@
-/*Colors for this site: #ccd5ff, #7353ba, #2f195f, #0f1020, #50d8d7*/
+/*Colors for this site: #ccd5ff(lightblue), #7353ba(purple), #2f195f(darkpurple), #0f1020(darknavy), #50d8d7(teal)*/
 body{
   background-color: #0f1020;
+  margin: 0;
 }
 ul.nav{
   color: #ccd5ff;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  width: 97.9%;
+  overflow-x: hidden;
+  background-color: #2f195f;
 }
+li.nav a{
+	text-decoration: none;
+	display: block;
+	color: #ccd5ff;
+	font-family: "Baloo 2";
+	font-size: 60px;
+	padding: 10px 50px 0px; 
+}
+li.nav a:hover{
+	background-color: #7353ba;
+	transition: 0.5s;
+	color: #50d8d7;
+}
+li.nav{
+	font-family: "Baloo 2";
+	display: inline;
+	float: left;
+}
+.container{
+	position: sticky;
+}
+h1{
+	font-family: "Baloo 2";
+	font-size: 40px;
+	color: #50d8d7;
+	text-align: center;
+}
+h2{
+	color: #7353ba;
+	font-family: "Baloo 2";
+	font-size: 45px;
+}
+h3{
+	font-family:"Baloo 2";
+	font-size: 40px;
+	color: #2f195f;
+	text-align: center;
+}
+.index{
+  display: inline-grid;
+  position: relative;
+  padding: 50px;
+}
+.dx1, .dx2, .dx3, .dx4, .dx5{
+	/*border: 2px solid #ccd5ff;*/
+	text-align: center;
+}
+.show{
+	padding: 5px 90px 50px 90px;
+	grid-template-columns: 1000px 530px;
+	grid-template-rows:400px;
+	display:inline-grid;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+}
+.s2, .s4, .s6{
+	padding: 15px;	
+}
+.s1, .s3, .s5{
+	background-color: #7353ba;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.s1, .s2, .s3, .s4, .s5, .s6{
+	grid-areas: s1, s2, s3, s4, s5, s6;
+}
+div.tick{
+    padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	grid-template-columns: 600px 600px 600px;
+	grid-template-rows: 1030px;
+}
+.t1, .t2, .t3{
+	/*border: 2px solid #ccd5ff;*/
+	text-align:center;
+	padding: 0px 5px 0px 5px;
+}
+.item{
+	display: inline-grid;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	grid-template-columns: 600px 600px 600px;
+	grid-template-rows: 550px 550px;
+	text-align:center;
+	grid-gap: 15px;
+}
+.it1, .it2, .it3, .it4, .it5, .it6{
+	/*border: 2px solid #ccd5ff;*/
+	grid-area:it1 it2 it3 it4 it5 it6;
+}
+a{
+	text-decoration: none;
+	color: #ccd5ff;
+	font-family: "Baloo 2";
+	font-size: 15px;
+}
+a.hmlnk{
+	color: #50d8d7;
+	font-family: "Baloo 2";
+	font-size: 35px;
+}
+h4{
+	color: #50d8d7;
+	font-family: "Baloo 2";
+	font-size: 50px;
+}
+p{
+	font-family: "Baloo 2";
+	font-size: 30px;
+	color: #ccd5ff;
+}
+@media only screen and (max-width: 768px){
+	.container{
+		flex-direction: column;
+	}
+	.item{
+		grid-template-areas: 
+		"it1"
+		"it2"
+		"it3"
+		"it4"
+		"it5"
+		"it6";
+		flex-direction: column;
+		grid-template-columns: 600px;
+		grid-template-rows: 550px;
+	}
+	.tick{
+	flex-direction: column;
+	}
+	.show{
+		grid-template-areas: 
+		"s1"
+		"s2"
+		"s3"
+		"s4"
+		"s5"
+		"s6";
+		flex-direction: column;
+		grid-template-columns: 600px;
+		grid-template-rows: 400px;
+	}
+}
+/*Cannot seem to get navbar to flex in similar way*/
