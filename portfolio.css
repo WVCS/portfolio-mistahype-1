@@ -1,29 +1,29 @@
 /*Colors for this site: #bcecf6(lightblue), #f7f5f6(white), #ff2768(lightred), #ff8691(coral)*/
 body{
-  background-color: #0f1020;
+  background-color: #f7f5f6;
   margin: 0;
 }
 ul.nav{
-  color: #ccd5ff;
+  color: #ff8691;
   display: inline-block;
   list-style-type: none;
   margin: 0;
   width: 97.9%;
   overflow-x: hidden;
-  background-color: #2f195f;
+  background-color: #f7f5f6;
 }
 li.nav a{
 	text-decoration: none;
 	display: block;
-	color: #ccd5ff;
+	color: #ff8691;
 	font-family: "Baloo 2";
 	font-size: 60px;
 	padding: 10px 50px 0px; 
 }
 li.nav a:hover{
-	background-color: #7353ba;
+	background-color: #bcecf6;
 	transition: 0.5s;
-	color: #50d8d7;
+	color: #ff2768;
 }
 li.nav{
 	font-family: "Baloo 2";
@@ -50,7 +50,7 @@ h3{
 	color: #2f195f;
 	text-align: center;
 }
-.show{
+.webs{
 	padding: 5px 90px 50px 90px;
 	grid-template-columns: 1000px 530px;
 	grid-template-rows:400px;
@@ -90,7 +90,7 @@ p{
 	.container{
 		flex-direction: column;
 	}
-	.show{
+	.webs{
 		grid-template-areas: 
 		"w1"
 		"w2"
@@ -98,8 +98,8 @@ p{
 		"w4"
 		"w5"
 		"w6"
-    "w7"
-    "w8";
+                "w7"
+                "w8";
 		flex-direction: column;
 		grid-template-columns: 600px;
 		grid-template-rows: 400px;
