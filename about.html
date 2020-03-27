@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bellota" type="text/css"/>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,114 +16,5 @@
       <li class="nav"><a href="work.html"> My Work</a></li>
     </ul>
   </div>
-  <style>
-    /*Colors for this site: #bcecf6(lightblue), #f7f5f6(white), #ff2768(lightred), #ff8691(coral)*/
-body{
-  background-color: #f7f5f6;
-  margin: 0;
-}
-ul.nav{
-  color: #ff8691;
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  width: 97.9%;
-  overflow-x: hidden;
-  background-color: #f7f5f6;
-}
-li.nav a{
-	text-decoration: none;
-	display: block;
-	color: #ff8691;
-	font-family: "Bellota";
-	font-size: 60px;
-	padding: 10px 50px 0px; 
-}
-li.nav a:hover{
-	background-color: #bcecf6;
-	transition: 0.5s;
-	color: #ff2768;
-}
-li.nav{
-	font-family: "Bellota";
-	display: inline;
-	float: left;
-}
-.container{
-	position: sticky;
-}
-h1{
-	font-family: "Bellota";
-	font-size: 40px;
-	color: #ff2768;
-	text-align: center;
-}
-h2{
-	color: #ff8691;
-	font-family: "Bellota";
-	font-size: 45px;
-}
-h3{
-	font-family:"Bellota";
-	font-size: 40px;
-	color: #bcecf6;
-	text-align: center;
-}
-.webs{
-	padding: 5px 90px 50px 90px;
-	grid-template-columns: 1000px 530px;
-	grid-template-rows:400px;
-	display:inline-grid;
-	justify-content: center;
-	align-content: center;
-	grid-gap: 10px;
-}
-.w2, .w4, .w6, .w8{
-	padding: 15px;	
-}
-.w1, .w3, .w5, .w7{
-	background-color: #bcecf6;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8{
-	grid-areas: w1, w2, w3, w4, w5, w6, w7, w8;
-}
-a{
-	text-decoration: none;
-	color: #ff8691;
-	font-family: "Bellota";
-	font-size: 15px;
-}
-h4{
-	color: #ff2768;
-	font-family: "Bellota";
-	font-size: 50px;
-}
-p{
-	font-family: "Bellota";
-	font-size: 30px;
-	color: #ff8691;
-}
-@media only screen and (max-width: 768px){
-	.container{
-		flex-direction: column;
-	}
-	.webs{
-		grid-template-areas: 
-		"w1"
-		"w2"
-		"w3"
-		"w4"
-		"w5"
-		"w6"
-    "w7"
-    "w8";
-		flex-direction: column;
-		grid-template-columns: 600px;
-		grid-template-rows: 400px;
-	}
-}
-  </style>
   </body>
   </html>
