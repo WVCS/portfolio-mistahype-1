@@ -33,6 +33,10 @@ li.nav{
 .container{
 	position: sticky;
 }
+div.block{
+	background-color: #bcecf6;
+	padding: 5px;
+}
 h1{
 	font-family: "Bellota";
 	font-size: 40px;
@@ -104,8 +108,4 @@ p{
 		grid-template-columns: 600px;
 		grid-template-rows: 400px;
 	}
-}
-div{
-	background-color: #bcecf6;
-	padding: 5px;
 }
