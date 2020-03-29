@@ -105,3 +105,7 @@ p{
 		grid-template-rows: 400px;
 	}
 }
+div{
+	background-color: #bcecf6;
+	padding: 5px;
+}
