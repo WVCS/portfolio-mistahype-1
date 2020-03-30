@@ -67,7 +67,7 @@ h3{
 .w2, .w4, .w6, .w8{
 	padding: 15px;
 }
-.w2, .w4, .w6, .w8 a:hover{
+.w8 a:hover{
 		background-color: #ff8691;
 }
 .w1, .w3, .w5, .w7{
