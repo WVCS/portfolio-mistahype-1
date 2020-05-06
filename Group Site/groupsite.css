@@ -43,7 +43,7 @@ div.block{
 h1{
 	font-family: "Teko";
 	font-size: 40px;
-	color: #ff2768;
+	color: #f6cfe3;
 	text-align: center;
 }
 h2{
@@ -65,14 +65,6 @@ h3{
 	justify-content: center;
 	align-content: center;
 	grid-gap: 10px;
-}
-.m2, .m4, .m6, .m8{
-	padding: 15px;
-}
-.m1, .m3, .m5, .m7{
-	background-color: #bcecf6;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 .m1, .m2, .m3, .m4, .m5, .m6, .m7{
 	grid-areas: m1, m2, m3, m4, m5, m6, m7;
