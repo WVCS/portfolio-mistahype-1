@@ -64,16 +64,16 @@ h3{
 	align-content: center;
 	grid-gap: 10px;
 }
-.w2, .w4, .w6, .w8{
+.w2, .w4, .w6, .w8, .w10{
 	padding: 15px;
 }
-.w1, .w3, .w5, .w7{
+.w1, .w3, .w5, .w7, .w9{
 	background-color: #bcecf6;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8{
-	grid-areas: w1, w2, w3, w4, w5, w6, w7, w8;
+.w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8, .w9, .w10{
+	grid-areas: w1, w2, w3, w4, w5, w6, w7, w8, w9, w10;
 }
 img:hover{
 	background-color: #ff8691;
