@@ -114,6 +114,7 @@ p{
 		grid-template-rows: 400px;
 	}
 }
-data-toggle.pill{
+data-toggle.pill.active{
   color: #f6cfe3;
+	background-color: #46bae2;
 }
