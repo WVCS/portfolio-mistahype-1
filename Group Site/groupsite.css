@@ -114,4 +114,6 @@ p{
 		grid-template-rows: 400px;
 	}
 }
-
+data-toggle.pill{
+  color: #f6cfe3;
+}
