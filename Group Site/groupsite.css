@@ -64,8 +64,9 @@ div.jumbotron{
 	text-align: center;
 	align-content: center;
 }
-.m1, .m2, .m3, .m4, .m5, .m6, .m7{
-	grid-areas: m1, m2, m3, m4, m5, m6, m7;
+div.members{
+	align-content:center;
+}
 }
 img:hover{
 	/*Make photos of members zoom*/
@@ -105,5 +106,5 @@ p{
 	}
 }
 #BTSCarousel{
-	
+
 }
