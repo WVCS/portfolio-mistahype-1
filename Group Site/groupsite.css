@@ -51,12 +51,6 @@ h2{
 	font-family: "Teko";
 	font-size: 45px;
 }
-h3{
-	font-family:"Teko";
-	font-size: 40px;
-	color: #bcecf6;
-	text-align: center;
-}
 #main-nav {
 	display: inline-block;
 }
@@ -76,11 +70,6 @@ a{
 	color: #ff8691;
 	font-family: "Teko";
 	font-size: 15px;
-}
-h4{
-	color: #ff2768;
-	font-family: "Teko";
-	font-size: 50px;
 }
 p{
 	font-family: "Teko";
