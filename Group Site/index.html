@@ -7,7 +7,8 @@
     <title> Home </title>
   </head>
 <body>
-  <div class="container">
+<nav>
+  <div class="container" id="main-nav">
     <ul class=""nav nav-pills nav-justified"">
       <li class="nav"> <img src="groupweblogo.png" alt="grouplogo" width="177px" height="187px"> </li>
       <li class="nav"> <a data-toggle="pill" href="index.html">Home</a> </li>
@@ -16,9 +17,45 @@
       <li class="nav"><a data-toggle="pill" href="pic.html"> Photos</a></li>
     </ul>
   </div>
+  </nav>
+  <br>
   <div class="jumbotron">
     <h1> Welcome to All About BTS! </h1>
+    <br>
     <p> This is a fan website about BTS for a school project. It covers the basics of BTS as a group.</p>
+  </div>
+  <br>
+  <div class="intro">
+    <img src="Images/BTS.jpg">
+    <p>BTS is a South-Korean hip-hop/pop group consisting of seven members.</p>
+  </div>
+  <br>
+  <div id="BTSCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Images/BTS7.jpg" alt="DNA">
+      </div>
+  
+      <div class="item">
+        <img src="Images/BTS5.jpg" alt="BlkSwn">
+      </div>
+  
+      <div class="item">
+        <img src="Images/BTS14.jpg" alt="tear">
+      </div>
+      <div class="item">
+        <img src="Images/BTS2.jpg" alt="mots7">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#BTSCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#BTSCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
   </div>
 </body>
 </html>
