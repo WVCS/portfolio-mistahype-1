@@ -47,7 +47,7 @@ h1{
 	text-align: center;
 }
 h2{
-	color: #ff8691;
+	color: #ffffff;
 	font-family: "Teko";
 	font-size: 45px;
 }
@@ -57,14 +57,12 @@ h3{
 	color: #bcecf6;
 	text-align: center;
 }
-.webs{
-	padding: 5px 90px 50px 90px;
-	grid-template-columns: 1000px 530px;
-	grid-template-rows:400px;
-	display:inline-grid;
-	justify-content: center;
+#main-nav {
+	display: inline-block;
+}
+div.jumbotron{
+	text-align: center;
 	align-content: center;
-	grid-gap: 10px;
 }
 .m1, .m2, .m3, .m4, .m5, .m6, .m7{
 	grid-areas: m1, m2, m3, m4, m5, m6, m7;
@@ -86,7 +84,7 @@ h4{
 p{
 	font-family: "Teko";
 	font-size: 30px;
-	color: #ff8691;
+	color: #ffffff;
 }
 @media only screen and (max-width: 900px){
 	.container{
@@ -106,7 +104,6 @@ p{
 		grid-template-rows: 400px;
 	}
 }
-data-toggle.pill.active{
-  color: #f6cfe3;
-	background-color: #46bae2;
+#BTSCarousel{
+	
 }
