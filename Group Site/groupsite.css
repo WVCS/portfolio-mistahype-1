@@ -59,7 +59,9 @@ div.jumbotron{
 	align-content: center;
 }
 div.members{
-	align-content:center;
+	display: grid;
+	grid-template-columns: 500px 500px 500px 500px;
+	grid-template-rows: 600px;
 }
 }
 img:hover{
@@ -77,10 +79,10 @@ p{
 	color: #ffffff;
 }
 @media only screen and (max-width: 900px){
-	.container{
+	.members{
 		flex-direction: column;
 	}
-	.mem{
+	.members{
 		grid-template-areas: 
 		"m1"
 		"m2"
@@ -90,10 +92,30 @@ p{
 		"m6"
     "m7";
 		flex-direction: column;
-		grid-template-columns: 600px;
-		grid-template-rows: 400px;
 	}
 }
 #BTSCarousel{
+
+}
+.albums.button{
+	display: inline-grid;
+	grid-gap: 10px;
+}
+.active, .collapsible:hover {
+	background-color: #f6c7e3;
+}
+.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10, .con11, .con12, .con13, .con14 {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #377ac0;
+  }
+.m1, .m2, .m3, .m4, .m5, .m6 ,.m7{
+	  transition: transform .2s;
+  }
+.m1, .m2, .m3, .m4, .m5, .m6 ,.m7:hover{
+	transform: scale(1.05);
+}
+.m2, .m5, .m6, .m7{
 
 }
