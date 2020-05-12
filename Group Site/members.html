@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <head>
   <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
    <link rel="web icon" href="groupweblogo.png"/>
 <link rel="stylesheet" type="text/css" href="groupsite.css">
-  <head>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+ <link rel="web icon" href="groupweblogo.png">
+<link rel="stylesheet" type="text/css" href="groupsite.css">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="grpsite.js"></script>
     <title> Members </title>
   </head>
 <body>
@@ -18,8 +27,16 @@
   </div>
   <div class="members">
   <div class="m1"> 
-    <img src="Images/memNJ.jpg" width="435px" height="543.5px">
-  </div>
+ <img id="mem" src="Images/memNJ.jpg" onclick="onclickImg()" width="435px" height="543.5px">
+ <div id="mod" class="modal">
+   
+   <img class="modal-content" id="RM">
+   <p id="meminfo">Info</p>
+   <button type="button" class="close" data-dismiss="modal" aria-label="close">
+   <span aria-hidden="true">&times;</span>
+  </button>
+ </div>
+</div>
   <div class="m2"> 
     <img src="Images/memSJ.jpg" width="435px" height="543.5px">
   </div>
@@ -38,6 +55,7 @@
   <div class="m7"> 
     <img src="Images/memJK.jpg" width="435px" height="543.5px">
   </div>
+</div>
 </div>
 </body>
 </html>
