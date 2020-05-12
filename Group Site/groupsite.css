@@ -1,11 +1,12 @@
 body{
-  background-color: #377ac0;
+  background-color: #377ac0 !important;
   margin: 0;
+  padding-bottom:20px;
 }
-ul.nav{
+#main-nav ul{
   color: #114a9a;
   display: inline-block;
-  list-style-type: none;
+  list-style-type: none !important;
   margin: 0;
   width: 97.9%;
   overflow-x: hidden;
@@ -29,17 +30,13 @@ li.nav a:hover{
 }
 li.nav{
 	font-family: "Teko";
-	display: inline;
+	display: inline-left;
 	float: left;
 }
 .container{
 	position: sticky;
 }
-div.block{
-	background-color: #bcecf6;
-	padding: 5px;
-	margin: 50px;
-}
+
 h1{
 	font-family: "Teko";
 	font-size: 40px;
@@ -57,19 +54,17 @@ h2{
 div.jumbotron{
 	text-align: center;
 	align-content: center;
+	background-color:#377ac0;
 }
 div.members{
 	display: grid;
-	grid-template-columns: 500px 500px 500px 500px;
-	grid-template-rows: 600px;
-}
-}
-img:hover{
-	/*Make photos of members zoom*/
+	grid-template-columns: 450px 450px 450px 450px;
+	grid-template-rows: 560px;
+	padding: 50px;
 }
 a{
 	text-decoration: none;
-	color: #ff8691;
+	color: #f09a2d;
 	font-family: "Teko";
 	font-size: 15px;
 }
@@ -79,10 +74,10 @@ p{
 	color: #ffffff;
 }
 @media only screen and (max-width: 900px){
-	.members{
+	.m1, .m2, .m3, .m4, .m5, .m6, .m7{
 		flex-direction: column;
 	}
-	.members{
+	.m1, .m2, .m3, .m4, .m5, .m6, .m7{
 		grid-template-areas: 
 		"m1"
 		"m2"
@@ -94,14 +89,12 @@ p{
 		flex-direction: column;
 	}
 }
-#BTSCarousel{
-
-}
 .albums.button{
-	display: inline-grid;
+	display: flex;
 	grid-gap: 10px;
+	justify-content: center;
 }
-.active, .collapsible:hover {
+.collapsible:hover {
 	background-color: #f6c7e3;
 }
 .con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10, .con11, .con12, .con13, .con14 {
@@ -113,9 +106,97 @@ p{
 .m1, .m2, .m3, .m4, .m5, .m6 ,.m7{
 	  transition: transform .2s;
   }
-.m1, .m2, .m3, .m4, .m5, .m6 ,.m7:hover{
+.m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover, .m6:hover ,.m7:hover{
 	transform: scale(1.05);
 }
-.m2, .m5, .m6, .m7{
-
+/* Style the Image Used to Trigger the Modal */
+#mem {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #meminfo {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #meminfo {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+	.modal-content {
+	  width: 100%;
+	}
+  }
+div.photos{
+padding: 50px;
+}
+div.intro{
+	padding: 15px;
+	text-align: center;
+}
+.responsive{
+	width:100%;
+	height: auto;
+}
+.responsive1{
+	max-width: 80%;
+	height: auto;
 }
