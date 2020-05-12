@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
- <link rel="web icon" href="groupweblogo.png"/>
-<link rel="stylesheet" type="text/css" href="groupsite.css">
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+ <link rel="web icon" href="groupweblogo.png">
+<link rel="stylesheet" type="text/css" href="groupsite.css">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title> Home </title>
   </head>
 <body>
 <nav>
   <div class="container" id="main-nav">
-    <ul class=""nav nav-pills nav-justified"">
+    <ul class="nav-pills nav-justified nav">
       <li class="nav"> <img src="groupweblogo.png" alt="grouplogo" width="177px" height="187px"> </li>
       <li class="nav"> <a href="index.html">Home</a> </li>
       <li class="nav"><a href="members.html"> Members</a></li>
@@ -26,34 +31,42 @@
   </div>
   <br>
   <div class="intro">
-    <img src="Images/BTS.jpg">
+    <img src="Images/BTS.jpg" alt="BTScover" class="responsive">
     <p>BTS is a South-Korean hip-hop/pop group consisting of seven members.</p>
   </div>
   <br>
   <div id="BTSCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="Images/BTS7.jpg" alt="DNA">
+    <div class="carousel-inner text-center">
+      <div class="carousel-item active">
+        <img src="Images/BTS7.jpg" alt="DNA" class="responsive1">
       </div>
   
-      <div class="item">
-        <img src="Images/BTS5.jpg" alt="BlkSwn">
+      <div class="carousel-item">
+        <img src="Images/BTS5.jpg" alt="BlkSwn" class="responsive1">
       </div>
   
-      <div class="item">
-        <img src="Images/BTS14.jpg" alt="tear">
+      <div class="carousel-item">
+        <img src="Images/BTS14.jpg" alt="tear" class="responsive1">
       </div>
-      <div class="item">
-        <img src="Images/BTS2.jpg" alt="mots7">
+
+      <div class="carousel-item">
+        <img src="Images/BTS2.jpg" alt="mots7" class="responsive1">
       </div>
     </div>
-    <a class="left carousel-control" href="#BTSCarousel" data-slide="prev">
+    <a class="carousel-control-prev" href="#BTSCarousel" role="button" data-slide="prev">
+
       <span class="glyphicon glyphicon-chevron-left"></span>
+
       <span class="sr-only">Previous</span>
+
     </a>
-    <a class="right carousel-control" href="#BTSCarousel" data-slide="next">
+
+    <a class="carousel-control-next" href="#BTSCarousel" role="button" data-slide="next">
+
       <span class="glyphicon glyphicon-chevron-right"></span>
+
       <span class="sr-only">Next</span>
+
     </a>
   </div>
 </body>
