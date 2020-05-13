@@ -44,7 +44,7 @@ h1{
 	text-align: center;
 }
 h2{
-	color: #ffffff;
+	color: #f09a2d;
 	font-family: "Teko";
 	font-size: 45px;
 }
@@ -95,7 +95,7 @@ p{
 	justify-content: center;
 }
 .collapsible:hover {
-	background-color: #f6c7e3;
+	background-color: #6fc6d1;
 }
 .con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10, .con11, .con12, .con13, .con14 {
 	padding: 0 18px;
@@ -106,14 +106,15 @@ p{
 .m1, .m2, .m3, .m4, .m5, .m6 ,.m7{
 	  transition: transform .2s;
   }
-.m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover, .m6:hover ,.m7:hover{
-	transform: scale(1.05);
-}
 /* Style the Image Used to Trigger the Modal */
-#mem {
+#mem{
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.3s;
+
+  }
+  #mem:hover{
+	  transform: scale(1.02);
   }
   /* The Modal (background) */
   .modal {
@@ -126,16 +127,14 @@ p{
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
 	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	background-color: #114a9a; /* Fallback color */
+	background-color: #114a9ad0; /* Black w/ opacity */
   }
   
   /* Modal Content (Image) */
   .modal-content {
-	margin: auto;
+	text-align: center;
 	display: block;
-	width: 80%;
-	max-width: 700px;
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -151,9 +150,10 @@ p{
   }
   
   /* Add Animation - Zoom in the Modal */
-  .modal-content, #meminfo {
+  .modal-content{
 	animation-name: zoom;
 	animation-duration: 0.6s;
+	width: 100%;
   }
   
   @keyframes zoom {
@@ -166,7 +166,7 @@ p{
 	position: absolute;
 	top: 15px;
 	right: 35px;
-	color: #f1f1f1;
+	color: #114a9a;
 	font-size: 40px;
 	font-weight: bold;
 	transition: 0.3s;
@@ -174,7 +174,7 @@ p{
   
   .close:hover,
   .close:focus {
-	color: #bbb;
+	color: #6fc6d1;
 	text-decoration: none;
 	cursor: pointer;
   }
@@ -199,4 +199,20 @@ div.intro{
 .responsive1{
 	max-width: 80%;
 	height: auto;
+}
+.test{
+	background-color: #114a9aa2;
+}
+td{
+	color: #4096d3;
+	font-family: "Teko";
+	font-size: 40px;
+	text-align:center;
+}
+td.title{
+	color: #f09a2d;
+}
+::selection{
+	color: #6fc6d1;
+	background-color: #f6cfe3;
 }
