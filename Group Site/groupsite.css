@@ -71,6 +71,7 @@ a{
 div.con1, div.con2, div.con3{
 	background-color:#f09a2d;
 	width: 380px;
+	border-radius: 25px;
 }
 li{
 	color: white;
