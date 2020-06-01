@@ -39,14 +39,14 @@ li.nav{
 
 h1{
 	font-family: "Teko";
-	font-size: 55px;
+	font-size: 60px;
 	color: #f6cfe3;
 	text-align: center;
 }
 h2{
 	color: #f09a2d;
 	font-family: "Teko";
-	font-size: 45px;
+	font-size: 50px;
 }
 #main-nav {
 	display: inline-block;
@@ -68,9 +68,19 @@ a{
 	font-family: "Teko";
 	font-size: 15px;
 }
+div.con1, div.con2, div.con3{
+	background-color:#f09a2d;
+	width: 380px;
+}
+li{
+	color: white;
+	font-family: "Teko";
+	font-size: 25px;
+}
+
 p{
 	font-family: "Teko";
-	font-size: 30px;
+	font-size: 35px;
 	color: #ffffff;
 }
 @media only screen and (max-width: 900px){
@@ -89,6 +99,10 @@ p{
 		flex-direction: column;
 	}
 }
+.albums{
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
 .albums.button{
 	display: flex;
 	grid-gap: 10px;
@@ -96,15 +110,13 @@ p{
 }
 .collapsible:hover {
 	background-color: #6fc6d1;
+	transition: 0.5s;
 }
 .con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10, .con11, .con12, .con13, .con14 {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
 	background-color: #377ac0;
-  }
-.m1, .m2, .m3, .m4, .m5, .m6 ,.m7{
-	  transition: transform .2s;
   }
 /* Style the Image Used to Trigger the Modal */
 #mem{
@@ -151,7 +163,7 @@ p{
   
   /* Add Animation - Zoom in the Modal */
   .modal-content{
-	animation-name: zoom;
+	animation-name: fadein;
 	animation-duration: 0.6s;
 	width: 100%;
   }
@@ -202,6 +214,7 @@ div.intro{
 }
 .test{
 	background-color: #114a9aa2;
+	border-radius: 25px;
 }
 td{
 	color: #4096d3;
