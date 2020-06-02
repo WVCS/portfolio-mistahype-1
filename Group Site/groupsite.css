@@ -68,17 +68,27 @@ a{
 	font-family: "Teko";
 	font-size: 15px;
 }
-div.con1, div.con2, div.con3{
+div.con1, div.con2, div.con3, div.con4, div.con5, div.con6, div.con7, div.con8, div.con9, div.con10, div.con11, div.con12, div.con13, div.con14{
 	background-color:#f09a2d;
-	width: 380px;
+	width: 420px;
 	border-radius: 25px;
+}
+span.dura{
+	color: #377ac0;
 }
 li{
 	color: white;
 	font-family: "Teko";
 	font-size: 25px;
 }
-
+li.part{
+	font-family: "Teko";
+	font-size: 35px;
+	color: #fbda01;
+}
+p.albinfo{
+	color: #114a9a;
+}
 p{
 	font-family: "Teko";
 	font-size: 35px;
